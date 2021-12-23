@@ -1,0 +1,857 @@
+[
+  {
+    "id": 1,
+    "title": "按下关闭",
+    "en": "Press For Closure"
+  },
+  {
+    "id": 2,
+    "title": "按照你的意愿",
+    "en": "Follow Through With Your Good Intentions"
+  },
+  {
+    "id": 3,
+    "title": "把它写下来",
+    "en": "Get It In Writing"
+  },
+  {
+    "id": 4,
+    "title": "保持开放的心态",
+    "en": "Keep An Open Mind"
+  },
+  {
+    "id": 5,
+    "title": "保持灵活",
+    "en": "Remain Flexible"
+  },
+  {
+    "id": 6,
+    "title": "保存你的精力",
+    "en": "Save Your Energy"
+  },
+  {
+    "id": 7,
+    "title": "被人肯定",
+    "en": "Be Delightfully Sure Of It"
+  },
+  {
+    "id": 8,
+    "title": "避免第一个解决方案",
+    "en": "Avoid The First Solution"
+  },
+  {
+    "id": 9,
+    "title": "别浪费时间了",
+    "en": "Don't Waste Your Time"
+  },
+  {
+    "id": 10,
+    "title": "别傻了",
+    "en": "Don't Be Ridiculous"
+  },
+  {
+    "id": 11,
+    "title": "不管你做什么，结果将持久",
+    "en": "Whatever You Do The Results Will Be Lasting"
+  },
+  {
+    "id": 12,
+    "title": "不管是什么",
+    "en": "No Matter What"
+  },
+  {
+    "id": 13,
+    "title": "不幸的是极有可能的",
+    "en": "Mishaps Are Highly Probable"
+  },
+  {
+    "id": 14,
+    "title": "不要担心",
+    "en": "Don't Be Concerned"
+  },
+  {
+    "id": 15,
+    "title": "不要等待",
+    "en": "Don't Wait"
+  },
+  {
+    "id": 16,
+    "title": "不要赌",
+    "en": "Don't Bet On It"
+  },
+  {
+    "id": 17,
+    "title": "不要过分",
+    "en": "Don't Overdo It"
+  },
+  {
+    "id": 18,
+    "title": "不要忽视显而易见的",
+    "en": "Don't Ignore The Obvious"
+  },
+  {
+    "id": 19,
+    "title": "不要迫于压力太快",
+    "en": "Don't Be Pressured Into Acting Too Quickly"
+  },
+  {
+    "id": 20,
+    "title": "不要让别人知道",
+    "en": "Keep It To Yourself"
+  },
+  {
+    "id": 21,
+    "title": "不要忘记有乐趣",
+    "en": "Don't Forget To Have Fun"
+  },
+  {
+    "id": 22,
+    "title": "不要陷入你的感情",
+    "en": "Don't Get Caught Up In Your Emotions"
+  },
+  {
+    "id": 23,
+    "title": "不要犹豫",
+    "en": "Don't Hesitate"
+  },
+  {
+    "id": 24,
+    "title": "不宜在这个时候",
+    "en": "Unfavorable At This Time"
+  },
+  {
+    "id": 25,
+    "title": "不用怀疑了",
+    "en": "Don't Doubt It"
+  },
+  {
+    "id": 26,
+    "title": "采用一个冒险的态度",
+    "en": "Adopt An Adventurous Attitude"
+  },
+  {
+    "id": 27,
+    "title": "尝试一种更不太可能的解决方案",
+    "en": "Try A More Unlikely Solution"
+  },
+  {
+    "id": 28,
+    "title": "从来没有",
+    "en": "Never"
+  },
+  {
+    "id": 29,
+    "title": "从现在开始 一年也没有关系",
+    "en": "A Year From Now It Won't Matter"
+  },
+  {
+    "id": 30,
+    "title": "答案就在你的后院",
+    "en": "The Answer Is In Your Backyard"
+  },
+  {
+    "id": 31,
+    "title": "答案可能会在另一种语言",
+    "en": "The Answer May Come To You In Another Language"
+  },
+  {
+    "id": 32,
+    "title": "打赌",
+    "en": "Bet On It"
+  },
+  {
+    "id": 33,
+    "title": "当然",
+    "en": "Definitely"
+  },
+  {
+    "id": 34,
+    "title": "等待一个更好的机会",
+    "en": "Wait For A Better Offer"
+  },
+  {
+    "id": 35,
+    "title": "等一等",
+    "en": "Wait"
+  },
+  {
+    "id": 36,
+    "title": "负责",
+    "en": "Take Charge"
+  },
+  {
+    "id": 37,
+    "title": "告诉别人它对你意味着什么",
+    "en": "Tell Someone What It Means To You"
+  },
+  {
+    "id": 38,
+    "title": "给它你的一切",
+    "en": "Give It All You've Got"
+  },
+  {
+    "id": 39,
+    "title": "更慷慨",
+    "en": "Be More Generous"
+  },
+  {
+    "id": 40,
+    "title": "过去的事就让它过去吧",
+    "en": "Let It Go"
+  },
+  {
+    "id": 41,
+    "title": "毫无疑问",
+    "en": "Unquestionably"
+  },
+  {
+    "id": 42,
+    "title": "合作将会是关键",
+    "en": "Collaboration Will Be The Key"
+  },
+  {
+    "id": 43,
+    "title": "很快就会解决它",
+    "en": "Settle It Soon"
+  },
+  {
+    "id": 44,
+    "title": "花更多的时间来决定",
+    "en": "Take More Time To Decide"
+  },
+  {
+    "id": 45,
+    "title": "怀疑",
+    "en": "Doubt It"
+  },
+  {
+    "id": 46,
+    "title": "会很棒的",
+    "en": "It's Gonna Be Great"
+  },
+  {
+    "id": 47,
+    "title": "会有障碍要克服",
+    "en": "There Will Be Obstacles To Overcome"
+  },
+  {
+    "id": 48,
+    "title": "获得更清晰的视野",
+    "en": "Get A Clearer View"
+  },
+  {
+    "id": 49,
+    "title": "机会不会很快再来",
+    "en": "The Chance Will Not Come Again Soon"
+  },
+  {
+    "id": 50,
+    "title": "继续前行",
+    "en": "Move On"
+  },
+  {
+    "id": 51,
+    "title": "接受改变你的日常行为",
+    "en": "Accept A Change To Your Routine"
+  },
+  {
+    "id": 52,
+    "title": "结果会是好的",
+    "en": "The Outcome Will Be Positive"
+  },
+  {
+    "id": 53,
+    "title": "尽情体验",
+    "en": "Enjoy The Experience"
+  },
+  {
+    "id": 54,
+    "title": "绝对不是",
+    "en": "Absolutely Not"
+  },
+  {
+    "id": 55,
+    "title": "看看会发生什么",
+    "en": "Watch And See What Happens"
+  },
+  {
+    "id": 56,
+    "title": "考虑一下这个机会",
+    "en": "Consider It An Opportunity"
+  },
+  {
+    "id": 57,
+    "title": "可以",
+    "en": "Yes"
+  },
+  {
+    "id": 58,
+    "title": "离开旧的解决方案",
+    "en": "Leave Behind Old Solutions"
+  },
+  {
+    "id": 59,
+    "title": "列出原因",
+    "en": "Make A List Of Why"
+  },
+  {
+    "id": 60,
+    "title": "令人震惊的事件可能发生的",
+    "en": "Startling Events May Occur As A Result"
+  },
+  {
+    "id": 61,
+    "title": "履行你自己的义务",
+    "en": "Follow Through On Your Obligations"
+  },
+  {
+    "id": 62,
+    "title": "冒险一试",
+    "en": "Take A Chance"
+  },
+  {
+    "id": 63,
+    "title": "没有",
+    "en": "No"
+  },
+  {
+    "id": 64,
+    "title": "没有保证",
+    "en": "There Is No Guarantee"
+  },
+  {
+    "id": 65,
+    "title": "那将是浪费钱",
+    "en": "That Would Be A Waste Of Money"
+  },
+  {
+    "id": 66,
+    "title": "那是脱离你的控制",
+    "en": "That's Out Of Your Control"
+  },
+  {
+    "id": 67,
+    "title": "耐心的等待",
+    "en": "Better To Wait"
+  },
+  {
+    "id": 68,
+    "title": "耐心点",
+    "en": "Be Patient"
+  },
+  {
+    "id": 69,
+    "title": "你必须",
+    "en": "You Must"
+  },
+  {
+    "id": 70,
+    "title": "你不会失望的",
+    "en": "You Will Not Be Disappointed"
+  },
+  {
+    "id": 71,
+    "title": "你的行动将会改善",
+    "en": "Your Actions Will Improve Thin"
+  },
+  {
+    "id": 72,
+    "title": "你还是问问爸爸吧",
+    "en": "Ask Your Father"
+  },
+  {
+    "id": 73,
+    "title": "你还是问问妈妈吧",
+    "en": "Ask Your Mother"
+  },
+  {
+    "id": 74,
+    "title": "你会得到最后的决定",
+    "en": "You'll Get The Final Word"
+  },
+  {
+    "id": 75,
+    "title": "你会发现一切你需要知道的",
+    "en": "You Will Find Out Everything You'll Need To Know"
+  },
+  {
+    "id": 76,
+    "title": "你会很高兴你做了",
+    "en": "You'll Be Happy You Did"
+  },
+  {
+    "id": 77,
+    "title": "你会后悔的",
+    "en": "You'll Regret It"
+  },
+  {
+    "id": 78,
+    "title": "你将不得不补回来",
+    "en": "You'll Have To Make It Up As You Go"
+  },
+  {
+    "id": 79,
+    "title": "你将不得不妥协",
+    "en": "You'll Have To Compromise"
+  },
+  {
+    "id": 80,
+    "title": "你将需要适应",
+    "en": "You Will Need To Accommodate"
+  },
+  {
+    "id": 81,
+    "title": "你可能会反对",
+    "en": "You May Have Opposition"
+  },
+  {
+    "id": 82,
+    "title": "你可能会放弃其他的东西",
+    "en": "You May Have To Drop Other Things"
+  },
+  {
+    "id": 83,
+    "title": "你可能觉得自己无法妥协",
+    "en": "You Could Find Yourself Unable To Compromise"
+  },
+  {
+    "id": 84,
+    "title": "你太近的看了",
+    "en": "You Are Too Close To See"
+  },
+  {
+    "id": 85,
+    "title": "你现在必须行动",
+    "en": "You Must Act Now"
+  },
+  {
+    "id": 86,
+    "title": "你需要考虑其他办法",
+    "en": "You'll Need To Consider Other Ways"
+  },
+  {
+    "id": 87,
+    "title": "你需要主动出击",
+    "en": "You'll Need To Take The Initiative"
+  },
+  {
+    "id": 88,
+    "title": "你一定有支持",
+    "en": "You Are Sure To Have Support"
+  },
+  {
+    "id": 89,
+    "title": "你真的不在乎",
+    "en": "You Don't Really Care"
+  },
+  {
+    "id": 90,
+    "title": "你知道现在比以前更好",
+    "en": "You Know Better Now Than Ever Before"
+  },
+  {
+    "id": 91,
+    "title": "您需要了解更多信息",
+    "en": "You'll Need More Information"
+  },
+  {
+    "id": 92,
+    "title": "其他人将取决于你的选择",
+    "en": "Others Will Depend On Your Choices"
+  },
+  {
+    "id": 93,
+    "title": "情况不明",
+    "en": "The Situation Is Unclear"
+  },
+  {
+    "id": 94,
+    "title": "情况将很快发生改变",
+    "en": "The Circumstances Will Change Very Quickly"
+  },
+  {
+    "id": 95,
+    "title": "如果你按我说的做",
+    "en": "If You Do As You're Told"
+  },
+  {
+    "id": 96,
+    "title": "如果你不反抗",
+    "en": "If You Don't Resist"
+  },
+  {
+    "id": 97,
+    "title": "如果你不孤单",
+    "en": "Not If You're Alone"
+  },
+  {
+    "id": 98,
+    "title": "如果是，做的很好；如果不是，就不要这么做；",
+    "en": "If It's Done Well; If Not, Don't Do It At All"
+  },
+  {
+    "id": 99,
+    "title": "删除你自己的障碍物",
+    "en": "Remove Your Own Obstacles"
+  },
+  {
+    "id": 100,
+    "title": "设定优先等级是一个必要的过程！",
+    "en": "Setting Priorities Will Be A Necessary Part Of The Process"
+  },
+  {
+    "id": 101,
+    "title": "实际一点吧",
+    "en": "Be Practical"
+  },
+  {
+    "id": 102,
+    "title": "似乎已经是真实的了",
+    "en": "Act As Though It Is Already Real"
+  },
+  {
+    "id": 103,
+    "title": "是的，但不要强迫",
+    "en": "Yes,But Don't Force It"
+  },
+  {
+    "id": 104,
+    "title": "是你走的时候",
+    "en": "It's Time For You To Go"
+  },
+  {
+    "id": 105,
+    "title": "是值得的麻烦",
+    "en": "It Is Worth The Trouble"
+  },
+  {
+    "id": 106,
+    "title": "数到10；再问",
+    "en": "Count To 10; Ask Again"
+  },
+  {
+    "id": 107,
+    "title": "说出来吧",
+    "en": "Speak Up About It"
+  },
+  {
+    "id": 108,
+    "title": "它会让你付出代价",
+    "en": "It'll Cost You"
+  },
+  {
+    "id": 109,
+    "title": "它会支持你的",
+    "en": "It Will Sustain You"
+  },
+  {
+    "id": 110,
+    "title": "探讨其俏皮的好奇心",
+    "en": "Explore It With Playful Curiosity"
+  },
+  {
+    "id": 111,
+    "title": "调查研究，然后享受它！",
+    "en": "Investigate And Then Enjoy It"
+  },
+  {
+    "id": 112,
+    "title": "完成其他事情的第一",
+    "en": "Finish Something Else First"
+  },
+  {
+    "id": 113,
+    "title": "为了确保能作出最佳决策，需要保持冷静",
+    "en": "To Ensure The Best Decision, Be Calm"
+  },
+  {
+    "id": 114,
+    "title": "为什么不列出原因",
+    "en": "Make A List Of Why Not"
+  },
+  {
+    "id": 115,
+    "title": "为突发事件做好准备",
+    "en": "Prepare For The Unexpected"
+  },
+  {
+    "id": 116,
+    "title": "温柔的坚持就是胜利",
+    "en": "Gentle Persistence Will Pay Off"
+  },
+  {
+    "id": 117,
+    "title": "无论如何你可以提升",
+    "en": "Upgrade Any Way You Can"
+  },
+  {
+    "id": 118,
+    "title": "现在你可以",
+    "en": "Now You Can"
+  },
+  {
+    "id": 119,
+    "title": "相关的问题可能的浮出水面",
+    "en": "Related Issues May Surface"
+  },
+  {
+    "id": 120,
+    "title": "相信你的原始思想",
+    "en": "Trust Your Original Thought"
+  },
+  {
+    "id": 121,
+    "title": "相信自己的直觉",
+    "en": "Trust Your Intuition"
+  },
+  {
+    "id": 122,
+    "title": "小心谨慎的靠近",
+    "en": "Approach Cautiously"
+  },
+  {
+    "id": 123,
+    "title": "笑一下",
+    "en": "Laugh About It"
+  },
+  {
+    "id": 124,
+    "title": "须以较宽松的步伐",
+    "en": "Proceed At A More Relaxed Pace"
+  },
+  {
+    "id": 125,
+    "title": "需要一个相当大的努力",
+    "en": "A Substantial Effort Will Be Required"
+  },
+  {
+    "id": 126,
+    "title": "寻找更多的选择",
+    "en": "Seek Out More Options"
+  },
+  {
+    "id": 127,
+    "title": "要解决",
+    "en": "Expect To Settle"
+  },
+  {
+    "id": 128,
+    "title": "也许",
+    "en": "Maybe"
+  },
+  {
+    "id": 129,
+    "title": "也许，当你老了",
+    "en": "Perhaps, When You're Older"
+  },
+  {
+    "id": 130,
+    "title": "以后处理",
+    "en": "Deal With It Later"
+  },
+  {
+    "id": 131,
+    "title": "有充分的理由保持乐观",
+    "en": "There Is Good Reason To Be Optimistic"
+  },
+  {
+    "id": 132,
+    "title": "有时候选择太多，就代表着无从选择！",
+    "en": "Realize That Too Many Choices Is As Difficult As Too Few"
+  },
+  {
+    "id": 133,
+    "title": "与另一种情况有潜在的联系",
+    "en": "There Is A Substantial Link To Another Situation"
+  },
+  {
+    "id": 134,
+    "title": "援助会让你成功进步",
+    "en": "Assistance Would Make Your Progress A Success"
+  },
+  {
+    "id": 135,
+    "title": "允许你选择先休息一下",
+    "en": "Allow Yoursele To Rest First"
+  },
+  {
+    "id": 136,
+    "title": "运用你的想象力",
+    "en": "Use Your Imagination"
+  },
+  {
+    "id": 137,
+    "title": "仔细聆听；那么你就会知道",
+    "en": "Listen More Carefully; Then You Will Know"
+  },
+  {
+    "id": 138,
+    "title": "在这个时候不要问太多了",
+    "en": "Don't Ask For Any More At This Time"
+  },
+  {
+    "id": 139,
+    "title": "早点做到这一点",
+    "en": "Do It Early"
+  },
+  {
+    "id": 140,
+    "title": "这不可能失败",
+    "en": "It Cannot Fail"
+  },
+  {
+    "id": 141,
+    "title": "这不是重要的",
+    "en": "It Is Not Significant"
+  },
+  {
+    "id": 142,
+    "title": "这个似乎放心",
+    "en": "It Seems Assured"
+  },
+  {
+    "id": 143,
+    "title": "这会带来好运",
+    "en": "It Will Bring Good Luck"
+  },
+  {
+    "id": 144,
+    "title": "这将更好地专注于自己的工作",
+    "en": "It Would Be Better To Focus On Your Work"
+  },
+  {
+    "id": 145,
+    "title": "这将会创造一个扰乱",
+    "en": "It Will Create A Stir"
+  },
+  {
+    "id": 146,
+    "title": "这将是一种享受",
+    "en": "It Will Be A Pleasure"
+  },
+  {
+    "id": 147,
+    "title": "这将影响别人看你",
+    "en": "It Will Affect How Others See You"
+  },
+  {
+    "id": 148,
+    "title": "这可能很难，但你会发现它的价值",
+    "en": "It May Be Difficult But You Will Find Value In It"
+  },
+  {
+    "id": 149,
+    "title": "这可能是特别的",
+    "en": "It Could Be Extraordinary"
+  },
+  {
+    "id": 150,
+    "title": "这可能已经是木已成舟",
+    "en": "It May Already Be A Done Deal"
+  },
+  {
+    "id": 151,
+    "title": "这肯定会让事情变得有趣",
+    "en": "It Is Sure To Make Things Interesting"
+  },
+  {
+    "id": 152,
+    "title": "这仍然是不可预测的",
+    "en": "It Will Remain Unpredictable"
+  },
+  {
+    "id": 153,
+    "title": "这是不明智的",
+    "en": "It Would Be Inadvisable"
+  },
+  {
+    "id": 154,
+    "title": "这是不确定的",
+    "en": "It Is Uncertain"
+  },
+  {
+    "id": 155,
+    "title": "这是不值得的斗争",
+    "en": "It's Not Worth A Struggle"
+  },
+  {
+    "id": 156,
+    "title": "这是非常重要",
+    "en": "It Is Significant"
+  },
+  {
+    "id": 157,
+    "title": "这是肯定的",
+    "en": "It Is Certain"
+  },
+  {
+    "id": 158,
+    "title": "这是你不会忘记的",
+    "en": "It Is Something You Won't Forget"
+  },
+  {
+    "id": 159,
+    "title": "这是一个不错的时间安排",
+    "en": "It's A Good Time To Make Plans"
+  },
+  {
+    "id": 160,
+    "title": "这是一个很好的时机，来制定新计划",
+    "en": "This Is A Good Time To Make A New Plan"
+  },
+  {
+    "id": 161,
+    "title": "只做一次",
+    "en": "Only Do It Once"
+  },
+  {
+    "id": 162,
+    "title": "重新考虑你的方法",
+    "en": "Reconsider Your Approach"
+  },
+  {
+    "id": 163,
+    "title": "重新确定优先次序什么是重要的",
+    "en": "Reprioritize What Is Important"
+  },
+  {
+    "id": 164,
+    "title": "注意你的节奏",
+    "en": "Watch Your Step As You Go"
+  },
+  {
+    "id": 165,
+    "title": "注重细节",
+    "en": "Pay Attention To The Details"
+  },
+  {
+    "id": 166,
+    "title": "专注你的家庭生活",
+    "en": "Focus On Your Home Life"
+  },
+  {
+    "id": 167,
+    "title": "转移你的焦点",
+    "en": "Shift Your Focus"
+  },
+  {
+    "id": 168,
+    "title": "最好的解决办法可能不是明显的",
+    "en": "The Best Solution May Not Be The Obvious One"
+  },
+  {
+    "id": 169,
+    "title": "尊重规则",
+    "en": "Respect The Rules"
+  },
+  {
+    "id": 170,
+    "title": "遵循别人的引导",
+    "en": "Follow Someone Else's Lead"
+  },
+  {
+    "id": 171,
+    "title": "遵循专家的建议",
+    "en": "Follow The Advice Of Experts"
+  }
+]
