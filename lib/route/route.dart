@@ -7,7 +7,7 @@ class AppRouteObserver extends AutoRouterObserver {
   void didPush(Route route, Route? previousRoute) {}
 }
 
-@AdaptiveAutoRouter(
+@MaterialAutoRouter(
   replaceInRouteName: 'Page,Route',
   routes: <AutoRoute>[
     //RedirectRoute(path: '*', redirectTo: '/'),
