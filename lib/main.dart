@@ -1,3 +1,4 @@
+import 'package:admin_team_boke/provider.dart';
 import 'package:admin_team_boke/route/route.dart';
 import 'package:admin_team_boke/route/route.gr.dart';
 import 'package:auto_route/auto_route.dart';
@@ -9,22 +10,21 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'generated/l10n.dart';
 
 void main() {
-  runApp(ProviderScope(child: MyApp()));
+  runApp(const ProviderScope(child: MyApp()));
 }
 
-class MyApp extends StatelessWidget {
-  final _appRouter = AppRouter();
-
-  MyApp({Key? key}) : super(key: key);
+class MyApp extends HookConsumerWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final appRouter = ref.watch(gRouteProvider);
     return MaterialApp.router(
       theme: ThemeData.light(),
-      routeInformationParser: _appRouter.defaultRouteParser(),
-      routeInformationProvider: _appRouter.routeInfoProvider(),
+      routeInformationParser: appRouter.defaultRouteParser(),
+      routeInformationProvider: appRouter.routeInfoProvider(),
       routerDelegate: AutoRouterDelegate(
-        _appRouter,
+        appRouter,
         navigatorObservers: () => [AppRouteObserver()],
       ),
       builder: EasyLoading.init(),
