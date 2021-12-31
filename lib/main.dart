@@ -1,6 +1,5 @@
 import 'package:admin_team_boke/provider.dart';
 import 'package:admin_team_boke/route/route.dart';
-import 'package:admin_team_boke/route/route.gr.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';

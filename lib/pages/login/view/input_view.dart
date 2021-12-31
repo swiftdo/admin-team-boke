@@ -1,21 +1,30 @@
 import 'package:admin_team_boke/gen/colors.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class InputView extends StatelessWidget {
+class InputView extends HookConsumerWidget {
   final String hintText;
   final IconData icon;
   final double marginTop;
+  final TextInputType? keyboardType;
+  final FormFieldValidator<String>? validator;
+  final Function(String text, WidgetRef ref)? onChanged;
+  final bool obscureText;
 
-  const InputView(
-      {Key? key,
-      required this.hintText,
-      required this.icon,
-      this.marginTop = 10})
-      : super(key: key);
+  const InputView({
+    Key? key,
+    required this.hintText,
+    required this.icon,
+    this.marginTop = 10,
+    this.onChanged,
+    this.validator,
+    this.keyboardType,
+    this.obscureText = false,
+  }) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10),
       margin: EdgeInsets.only(top: marginTop),
@@ -39,6 +48,12 @@ class InputView extends StatelessWidget {
                 border: InputBorder.none,
                 hintText: hintText,
               ),
+              keyboardType: keyboardType,
+              onChanged: (text) {
+                onChanged?.call(text, ref);
+              },
+              validator: validator,
+              obscureText: obscureText,
             ),
           )
         ],
