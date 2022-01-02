@@ -26,7 +26,11 @@ class MyApp extends HookConsumerWidget {
       routeInformationProvider: appRouter.routeInfoProvider(),
       routerDelegate: AutoRouterDelegate(
         appRouter,
-        navigatorObservers: () => [AppRouteObserver()],
+        navigatorObservers: () => [
+          AppRouteObserver(
+            notifier: ref.watch(gRouteChangeProvider.notifier),
+          )
+        ],
       ),
       builder: toast.init(),
       localizationsDelegates: const [

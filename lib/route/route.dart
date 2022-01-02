@@ -6,9 +6,17 @@ import 'package:admin_team_boke/route/auth_guard.dart';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
+import 'route_notifier.dart';
+
 class AppRouteObserver extends AutoRouterObserver {
+  AppRouteObserver({required this.notifier});
+  final RouteNotifier notifier;
+
   @override
-  void didPush(Route route, Route? previousRoute) {}
+  void didPush(Route route, Route? previousRoute) {
+    debugPrint('New route pushed: ${route.settings.name}');
+    Future.microtask(() => notifier.currentRoute = route.settings.name);
+  }
 
   @override
   void didInitTabRoute(TabPageRoute route, TabPageRoute? previousRoute) {

@@ -1,6 +1,7 @@
 import 'package:admin_team_boke/config/config.dart';
 import 'package:admin_team_boke/route/auth_guard.dart';
 import 'package:admin_team_boke/route/route.gr.dart';
+import 'package:admin_team_boke/route/route_notifier.dart';
 import 'package:admin_team_boke/services/sp_service.dart';
 import 'package:admin_team_boke/services/toast.dart';
 import 'package:dio/dio.dart';
@@ -28,6 +29,10 @@ final gRouteProvider = Provider((ref) {
   final sp = ref.watch(gSpService);
   return AppRouter(authGuard: AuthGuard(sp: sp));
 });
+
+final gRouteChangeProvider = StateNotifierProvider<RouteNotifier, String?>(
+  (ref) => RouteNotifier(),
+);
 
 // dio
 final gDioProvider = Provider<Dio>((ref) {

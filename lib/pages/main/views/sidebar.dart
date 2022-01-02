@@ -1,15 +1,30 @@
-import 'package:admin_team_boke/core/ext/ext.dart';
+import 'package:admin_team_boke/data/model/side_bar_item.dart';
+import 'package:admin_team_boke/provider.dart';
 import 'package:admin_team_boke/route/route.gr.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'nav_link.dart';
 
-class SideBar extends StatelessWidget {
+class SideBar extends HookConsumerWidget {
   const SideBar({Key? key}) : super(key: key);
 
+  final List<SideBarItem> barItems = const [
+    SideBarItem(
+      label: "Users",
+      routeInfo: UserRoute(),
+      icon: FontAwesomeIcons.user,
+    ),
+    SideBarItem(
+      label: "Post",
+      routeInfo: PostRoute(),
+      icon: FontAwesomeIcons.newspaper,
+    ),
+  ];
+
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return Container(
       color: const Color(0xff102A60),
       width: 160,
@@ -37,16 +52,7 @@ class SideBar extends StatelessWidget {
               ],
             ),
           ),
-          const NavLink(
-            label: "Users",
-            destination: UserRoute(),
-            icon: FontAwesomeIcons.user,
-          ),
-          const NavLink(
-            label: "Post",
-            destination: PostRoute(),
-            icon: FontAwesomeIcons.newspaper,
-          ),
+          ...barItems.map((e) => NavLink(item: e))
         ],
       ),
     );

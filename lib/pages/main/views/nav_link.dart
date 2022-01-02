@@ -1,51 +1,51 @@
+import 'package:admin_team_boke/data/model/side_bar_item.dart';
 import 'package:admin_team_boke/provider.dart';
-import 'package:admin_team_boke/route/route.gr.dart';
-import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class NavLink extends HookConsumerWidget {
-  final String label;
-  final IconData? icon;
-  final PageRouteInfo destination;
+  final SideBarItem item;
 
   const NavLink({
     Key? key,
-    required this.label,
-    required this.destination,
-    this.icon,
+    required this.item,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final currentRoute = ref.watch(gRouteChangeProvider);
+    bool isHigh = item.routeInfo?.routeName == currentRoute;
+    final color = isHigh ? Colors.white : const Color(0xff808EAA);
+
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
       child: Container(
+        decoration:
+            BoxDecoration(color: isHigh ? const Color(0xff153575) : null),
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
-        margin: const EdgeInsets.only(left: 30),
         child: Row(
           children: [
-            if (icon != null)
+            if (item.icon != null)
               Container(
                 child: FaIcon(
-                  icon,
+                  item.icon,
                   size: 16,
-                  color: const Color(0xff808EAA),
+                  color: color,
                 ),
                 margin: const EdgeInsets.only(right: 5),
               ),
             Text(
-              label,
-              style: const TextStyle(
-                color: Color(0xff808EAA),
-              ),
+              item.label,
+              style: TextStyle(color: color),
             )
           ],
         ),
       ),
       onTap: () {
-        ref.read(gRouteProvider).replace(destination);
+        if (item.routeInfo != null) {
+          ref.read(gRouteProvider).replace(item.routeInfo!);
+        }
       },
     );
   }
