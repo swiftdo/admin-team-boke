@@ -18,25 +18,3 @@ extension BuildContextExt on BuildContext {
     return MediaQuery.of(this).padding.bottom;
   }
 }
-
-extension ObjectExt on Object {
-  Map<String, dynamic> get toMap {
-    return ValueUtil.toMap(this);
-  }
-
-  String get toStr {
-    return ValueUtil.toStr(this);
-  }
-
-  double get toDouble {
-    return ValueUtil.toDouble(this);
-  }
-
-  int get toInt {
-    return ValueUtil.toInt(this);
-  }
-
-  List get toList {
-    return ValueUtil.toList(this);
-  }
-}

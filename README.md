@@ -14,6 +14,8 @@
 
 ```shell
 fvm flutter packages pub run build_runner build --delete-conflicting-outputs
+# or 
+fvm flutter packages pub run build_runner watch --delete-conflicting-outputs
 ```
 
 可参考文章 [https://wingpage.net/content/Flutter/Flutter%20freeze.html](https://wingpage.net/content/Flutter/Flutter%20freeze.html)

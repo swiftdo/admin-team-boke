@@ -25,6 +25,7 @@ dependencies:
 
   # 弹窗
   flutter_easyloading: ^3.0.3
+  flutter_spinkit: ^5.1.0
 
   # 数据解析
   freezed_annotation:

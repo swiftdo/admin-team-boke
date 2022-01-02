@@ -18,7 +18,9 @@ class MyApp extends HookConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final appRouter = ref.watch(gRouteProvider);
+    final toast = ref.watch(gToast);
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       routeInformationParser: appRouter.defaultRouteParser(),
       routeInformationProvider: appRouter.routeInfoProvider(),
@@ -26,7 +28,7 @@ class MyApp extends HookConsumerWidget {
         appRouter,
         navigatorObservers: () => [AppRouteObserver()],
       ),
-      builder: EasyLoading.init(),
+      builder: toast.init(),
       localizationsDelegates: const [
         S.delegate,
         GlobalMaterialLocalizations.delegate,
